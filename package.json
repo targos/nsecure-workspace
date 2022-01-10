@@ -1,0 +1,27 @@
+{
+  "name": "@targos/nsecure-workspace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/targos/nsecure-workspace.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/targos/nsecure-workspace/issues"
+  },
+  "homepage": "https://github.com/targos/nsecure-workspace#readme",
+  "workspaces": [
+    "b",
+    "a"
+  ],
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
